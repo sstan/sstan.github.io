@@ -1,0 +1,142 @@
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+
+#div_duck {
+    width:500px;
+    height:200px;
+    background-color:#f7f7f7;
+    text-align:center;
+}
+
+#top_strip {
+    width:100%;
+    height:5px;
+    background-color:#de5833;
+}
+
+.over {
+    border: 2px dashed #000;
+    
+}
+
+#center_picture {
+    margin-top:30px;
+}
+
+/* all letter div */
+
+.letter {
+    overflow:hidden;
+    position: absolute;
+    height:33px;
+    
+}
+
+.letter img {
+    position: absolute;
+}
+
+/* D */
+#letter_0 {
+    width:25px;
+}
+
+#letter_0 img {
+    left: 0px;
+}
+
+/* u */
+#letter_1 {
+    width:20px;
+}
+
+#letter_1 img {
+    left: -25px;
+}
+
+/* c */
+
+#letter_2 {
+    width:18px;
+}
+
+#letter_2 img {
+    left: -45px;
+}
+
+/* k */
+
+#letter_3 {
+    width:17px;
+}
+
+#letter_3 img {
+    left: -64px;
+}
+
+/* D */
+#letter_4 {
+    width:25px;
+}
+
+#letter_4 img {
+    left: 0px;
+}
+
+/* u */
+#letter_5 {
+    width:20px;
+}
+
+#letter_5 img {
+    left: -25px;
+}
+
+/* c */
+
+#letter_6 {
+    width:18px;
+}
+
+#letter_6 img {
+    left: -45px;
+}
+
+/* k */
+
+#letter_7 {
+    width:17px;
+}
+
+#letter_7 img {
+    left: -64px;
+}
+
+/* G */
+
+#letter_8 {
+    width:25px;
+}
+
+#letter_8 img {
+    left: -81px;
+}
+
+/* o */
+
+#letter_9 {
+    width:20px;
+}
+
+#letter_9 img {
+    left: -106px;
+}

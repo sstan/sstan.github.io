@@ -1,0 +1,64 @@
+<!-doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Do You Remember</title>
+    <link rel="stylesheet" type="text/css" href="remember.css" />
+    
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <script src="../jquery.js"></script>
+    
+</head>
+
+<body onload="assign_icons();">
+
+<div class="div-crt">
+    <img src="images/crt.png">
+    
+    <div class="div-table">
+    <div class="invisible bsod"><img src="images/bsod.gif" class="inviz_img"></div>
+    <div class="invisible post"><img src="images/post.png" class="inviz_img"></div>
+    <div class="invisible boot"><img src="images/boot.gif" class="inviz_img"></div>
+        <div class="div-table-row">
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+        </div>
+
+        <div class="div-table-row">
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+        </div>
+
+        <div class="div-table-row">
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+        </div>
+
+        <div class="div-table-row">
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+            <div class="div-table-col"></div>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<button onclick="assign_icons();" onfocus="this.blur()"> Go</button>
+<button onclick="set_background();" onfocus="this.blur()">Random Background</button>
+
+<br>
+<p id="background_info"></p> <br>
+
+
+
+<script src="remember.js"></script>
+</body>
+</html>

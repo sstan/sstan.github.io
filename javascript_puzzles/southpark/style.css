@@ -1,0 +1,134 @@
+    .c_bebe {
+    background:transparent url('images/bebe-stevens.png') center no-repeat;
+    }
+    .c_cartman {
+    background:transparent url('images/cartman.png') center  no-repeat;
+    }
+    .c_butters {
+    background:transparent url('images/butters-stotch.png') center no-repeat;
+    }
+    .c_craig {
+    background:transparent url('images/craig-tucker.png') center no-repeat;
+    }
+    .c_kelly {
+    background:transparent url('images/kelly-rutherford-menskin.png') center no-repeat;
+    }
+    .c_kenny {
+    background:transparent url('images/kenny.png') center no-repeat;
+    }
+    .c_mark {
+    background:transparent url('images/mark-cotswolds.png') center no-repeat;
+    }
+    .c_pip {
+    background:transparent url('images/pip-pirrup.png') center no-repeat;
+    }
+    .c_rebecca {
+    background:transparent url('images/rebecca-cotswolds.png') center no-repeat;
+    }
+    .c_stan {
+    background:transparent url('images/stan.png') center no-repeat;
+    }
+    .c_wendy {
+    background:transparent url('images/wendy.png') center no-repeat;
+    }
+    .c_kyle {
+    background:transparent url('images/kyle.png') center no-repeat;
+    }
+    
+.character {
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;         
+    height:200px;
+    width:150px;
+    display:block;
+    background-size:contain;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    margin:10px;
+}
+
+.not_selected {
+    opacity: 0.3;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.character:hover {
+    opacity: 1;
+}
+
+.character.opacity_zero {
+    opacity: 0;
+}
+
+.frame {
+  position: relative;
+  display: table;         
+  width: auto;
+  margin: auto;
+  background-color:#000;         
+  /* border:1px solid #666666; */
+  border: 0px;
+  border-spacing:0px;/*cellspacing:poor IE support for  this*/
+}
+.row{
+  display:table-row;
+  width:auto;
+  clear:both;
+}
+
+#kitty {
+    color: blue;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left:100px;
+    margin-top:100px;
+    
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -ms-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+}
+
+#doge {
+    color: blue;
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left:100px;
+    margin-top:100px;
+    
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -ms-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.win_img {
+    vertical-align:middle;
+}
+
+.visible {
+    z-index: 10;
+    opacity: 1;
+}
+
+.invisible {
+    z-index: -10;
+    opacity:0;
+}
+
+body {
+    background-color: black;
+}

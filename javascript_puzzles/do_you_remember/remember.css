@@ -1,0 +1,81 @@
+
+.icon_0 {
+    background-image: url('eight_icons/0.png');
+}
+.icon_1 {
+    background-image: url('eight_icons/1.png');
+}
+.icon_2 {
+    background-image: url('eight_icons/2.png');
+}
+.icon_3 {
+    background-image: url('eight_icons/3.png');
+}
+.icon_4 {
+    background-image: url('eight_icons/4.png');
+}
+.icon_5 {
+    background-image: url('eight_icons/5.png');
+}
+.icon_6 {
+    background-image: url('eight_icons/6.png');
+}
+.icon_7 {
+    background-image: url('eight_icons/7.png');
+}
+.icon_unknown {
+    background-image: url('images/unknown.png');
+}
+
+.div-crt img{
+
+}
+
+.div-table {
+    position:absolute;
+    top: 40px;
+    left:56px;
+    display:table;         
+    width:auto;
+    border-radius: 15px;
+    background-image: url("bg_patterns/Clouds.bmp");
+    background-size: cover;
+}
+.div-table-row{
+    position:relative;
+    display:table-row;
+    width:auto;
+    clear:both;
+}
+.div-table-col{
+    padding:2px 5px 2px 5px;
+    float:left;/*fix for  buggy browsers*/
+    display:table-column; 
+    width:40px;
+    height:40px;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:1;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.invisible {
+    position:absolute;
+    z-index: -10;
+    opacity:1;
+    height:177;
+    border-radius: 15px;
+}
+
+.inviz_img {
+    margin-top:15px;
+    width:200px;
+    height:150px;
+    
+}
+
